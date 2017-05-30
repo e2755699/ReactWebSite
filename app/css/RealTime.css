@@ -1,0 +1,152 @@
+
+.chartForm {
+    background-color: rgba(232, 232, 232, 0.69);
+}
+
+.img-icon {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.li-hori {
+    display: inline;
+}
+.form-fullup {
+    width: auto;
+}
+.row-margin {
+    margin: 20px;
+}
+.form-padding {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.view-margin {
+    margin-right: 20px;
+    margin-left: 20px;                
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+body {
+    font: bold 2em/100% "微软雅黑", "Lucida Grande", "Lucida Sans", Helvetica, Arial, Sans;
+    background-size: cover;
+    background-image: url("http://localhost/solarbank3/app/assets/imgs/background7.jpg");
+    color: #333;
+    text-shadow: 1px 1px 1px rgba(73, 129, 132, 0.45);
+}
+.navbar-nav>li>a {
+    color: #333;
+    text-shadow: 1px 1px 1px rgba(73, 129, 132, 0.45);
+}
+.form-select {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 6px 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font: bold 1em/100% "微软雅黑", "Lucida Grande", "Lucida Sans", Helvetica, Arial, Sans;
+    line-height: 1.42857143;
+    color: #333;
+    text-shadow: 1px 1px 1px rgba(73, 129, 132, 0.45);
+    background-color: rgba(221, 236, 235, 0.72);
+    background-image: none;
+    border: 2px solid rgba(243, 243, 221, 0.99);
+    border-radius: 4px;
+}
+.nav-bar {
+    background-color: rgba(255, 255, 255, 0.69);
+}
+.nav-bar-right {
+    float: right!important;
+    margin-right: 500px;
+}
+.navbar-brand {
+  padding: 0px; /* firefox bug fix */
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px; /* firefox bug fix */
+  width: auto;
+}
+#footer {
+  Position: absolute;
+  Width: 100%;
+  Bottom: 0;
+  Height: 75px;  /* This value is the height of your footer */
+} 
+
+@media only screen and (max-width: 1600px) {
+    .li-hori {
+        display: inline;
+    }
+    .form-fullup {
+        width: auto;
+    }
+    .row-margin {
+        margin: 20px;
+    }
+    .form-padding {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .view-margin {
+        margin-right: 20px;
+        margin-left: 20px;                
+    }
+    .col-centered{
+        float: none;
+        margin: 0 auto;
+    }
+    body {
+        font: bold 1.5em/100% "微软雅黑", "Lucida Grande", "Lucida Sans", Helvetica, Arial, Sans;
+        background-size: cover;
+        background-image: url("http://localhost/solarbank3/app/assets/imgs/background7.jpg");
+        color: #333;
+        text-shadow: 1px 1px 1px rgba(73, 129, 132, 0.45);
+    }
+    .navbar-nav>li>a {
+        color: #333;
+        text-shadow: 1px 1px 1px rgba(73, 129, 132, 0.45);
+    }
+    .form-select {
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 6px 12px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font: bold 1em/100% "微软雅黑", "Lucida Grande", "Lucida Sans", Helvetica, Arial, Sans;
+        line-height: 1.42857143;
+        color: #333;
+        text-shadow: 1px 1px 1px rgba(73, 129, 132, 0.45);
+        background-color: rgba(221, 236, 235, 0.72);
+        background-image: none;
+        border: 2px solid rgba(243, 243, 221, 0.99);
+        border-radius: 4px;
+    }
+    .nav-bar {
+        background-color: rgba(255, 255, 255, 0.69);
+    }
+    .nav-bar-right {
+        float: right!important;
+        margin-right: 500px;
+    }
+    .navbar-brand {
+      padding: 0px; /* firefox bug fix */
+    }
+    .navbar-brand>img {
+      height: 100%;
+      padding: 15px; /* firefox bug fix */
+      width: auto;
+    }
+    #footer {
+      Position: absolute;
+      Width: 100%;
+      Bottom: 0;
+      Height: 75px;  /* This value is the height of your footer */
+    }
+
+}

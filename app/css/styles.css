@@ -1,0 +1,380 @@
+
+
+@media only screen and (max-width: 1280px) {
+
+   body {
+    font-family: "Helvetica Neue", Helvetica, Arial, "微软雅黑", sans-serif;
+    background-image: url("../../assets/imgs/background7.jpg");
+    font-size:10px;
+    background-size: cover;
+    color: #333;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1600px) {
+
+   body {
+    font-family: "Helvetica Neue", Helvetica, Arial, "微软雅黑", sans-serif;
+    background-image: url("../../assets/imgs/background7.jpg");
+    font-size:16px;
+    background-size: cover;
+    color: #333;
+    }
+}
+
+@media screen and (min-width: 1601px) {
+
+   body {
+    font-family: "Helvetica Neue", Helvetica, Arial, "微软雅黑", sans-serif;
+    background-image: url("../../assets/imgs/background7.jpg");
+    font-size:18px;
+    background-size: cover;
+    color: #333;
+    }
+}
+
+.row-padded {
+  padding: 15px;
+  background-color: #bbb;
+  border: 1px solid #DDD;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.header-logo {
+	width: 160px;
+    height: 30px;
+}
+
+.chartForm {
+    background-color: rgba(232, 232, 232, 0.69);
+}
+
+.img-icon {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.li-hori {
+    display: inline;
+}
+
+.form-fullup {
+    width: auto;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.panel-login {
+    border-color: #ccc;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+}
+.panel-login>.panel-heading {
+    color: #00415d;
+    background-color: #fff;
+    border-color: #fff;
+    text-align:center;
+}
+.panel-login>.panel-heading a{
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+    font-size: 15px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+.panel-login>.panel-heading a.active{
+    color: #029f5b;
+    font-size: 18px;
+}
+.panel-login>.panel-heading hr{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    clear: both;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+.panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {
+    height: 45px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+.panel-login input:hover,
+.panel-login input:focus {
+    outline:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-color: #ccc;
+}
+.btn-login {
+    background-color: #59B2E0;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 14px 0;
+    text-transform: uppercase;
+    border-color: #59B2E6;
+}
+.btn-login:hover,
+.btn-login:focus {
+    color: #fff;
+    background-color: #53A3CD;
+    border-color: #53A3CD;
+}
+.forgot-password {
+    text-decoration: underline;
+    color: #888;
+}
+.forgot-password:hover,
+.forgot-password:focus {
+    text-decoration: underline;
+    color: #666;
+}
+
+.btn-register {
+    background-color: #1CB94E;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 14px 0;
+    text-transform: uppercase;
+    border-color: #1CB94A;
+}
+.btn-register:hover,
+.btn-register:focus {
+    color: #fff;
+    background-color: #1CA347;
+    border-color: #1CA347;
+}
+
+.form-select {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 6px 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font: bold 1rem "微软雅黑", "Lucida Grande", "Lucida Sans", Helvetica, Arial, Sans;
+    line-height: 1.42857143;
+    color: #333;
+    text-shadow: 1px 1px 1px rgba(73, 129, 132, 0.45);
+    background-color: rgba(221, 236, 235, 0.72);
+    background-image: none;
+    border: 2px solid rgba(243, 243, 221, 0.99);
+    border-radius: 4px;
+}
+
+
+/*ReailTime*/
+
+
+.large {
+  font-size: 16px; /* 125% of the baseline */
+}
+.img-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.li-hori {
+    display: inline;
+}
+.form-fullup {
+    width: auto;
+}
+.row-margin {
+    padding: 10px;
+}
+.form-padding {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.navbar {
+    margin-bottom : 10px;
+    height : 20px;
+}
+
+.navbar-nav>li>a {
+    color: #333;
+    text-shadow: 1px 1px 1px rgba(73, 129, 132, 0.45);
+}
+
+.navbar-nav>li {
+    font-size: 1.5rem;    
+}
+
+
+.nav-bar {
+    background-color: rgba(255, 255, 255, 0.69);
+}
+.nav-bar-right {
+    float: right!important;
+    margin-right: 500px;
+}
+.navbar-brand {
+  padding: 0px; /* firefox bug fix */
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px; /* firefox bug fix */
+  width: auto;
+}
+#footer {
+  Position: absolute;
+  Width: 100%;
+  Bottom: 0;
+  Height: 75px;  /* This value is the height of your footer */
+} 
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.RTList {
+    background-color: rgba(232, 232, 232, 0.69);
+    padding :5px;
+    margin-bottom: 10px;
+}
+
+.danger {
+    color : red;
+}
+
+.RTList .form-select {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 6px 6px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font: 1rem "微软雅黑", "Lucida Grande", "Lucida Sans", Helvetica, Arial, Sans;
+    line-height: 1.42857143;
+    color: #333;
+    text-shadow: 1px 1px 1px rgba(73, 129, 132, 0.45);
+    background-color: rgba(221, 236, 235, 0.72);
+    background-image: none;
+    border: 2px solid rgba(243, 243, 221, 0.99);
+    border-radius: 4px;
+}
+
+input,button,select,textarea{
+    font-family: "Helvetica Neue", Helvetica, Arial, "微软雅黑", sans-serif;
+    font-size: 1rem;
+    color: #333;
+    text-shadow: 1px 1px 1px rgba(73, 129, 132, 0.45);
+}
+
+.big-checkbox {width: 1.4rem; height: 1.4rem;}
+
+.li-hori {
+    display: inline;
+}
+.form-fullup {
+    width: auto;
+}
+
+.form-padding {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+/*nav*/
+.navbar-nav>li>a {
+    color: #333;
+    text-shadow: 1px 1px 1px rgba(73, 129, 132, 0.45);
+}
+
+.navbar-nav>li>a {
+    color: #333;
+    text-shadow: 1px 1px 1px rgba(73, 129, 132, 0.45);
+}
+
+.nav-bar {
+    background-color: rgba(255, 255, 255, 0.69);
+}
+.nav-bar-right {
+    float: right!important;
+    margin-right: 500px;
+}
+.navbar-brand {
+  padding: 0px; /* firefox bug fix */
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px; /* firefox bug fix */
+  width: auto;
+}
+#footer {
+  Position: absolute;
+  Width: 100%;
+  Bottom: 0;
+  Height: 75px;  /* This value is the height of your footer */
+}
+
+.loading-center-block{
+    padding-top: 200px;
+    float: none;
+    margin: 0 auto;
+}
+
+.li-hori {
+    display: inline;
+}
+.form-fullup {
+    width: auto;
+}
+.row-margin {
+    margin: 10px;
+}
+.form-padding {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.overlapping {
+    position : absolute;
+    height: 20%;
+    width: 20%;
+    z-index: 100;
+}
+
+.isrelatived {
+    position : relative;
+}
+
+.logInContainer {
+    margin-top: 100px;
+}
